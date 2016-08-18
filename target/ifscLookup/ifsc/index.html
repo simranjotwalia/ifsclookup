@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="css/bankDetails.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui.css">
+<script src="js/selectBank.js"></script>
+<script src="js/jquery.tmpl.js"></script>
+</head>
+<body>
+<div id="container-1">
+<div id = "selectBankName">	
+<label for="bank"><b>Select a Bank</b></label></br>
+<select name="bank" id="bankSelectBox">
+<option selected='selected'>HDFC BANK</option>
+</select>
+</br></br>
+</div>
+<div id = "cityAutoComplete">
+<label for="city"><b>Choose City</b></label></br>
+
+<input id = "citySearchBox"><!--  input id="search-ifsc" type = "image"  src="css/images/icon.svg"/-->
+<button class= "search-button"><span class="icon-class"></span></button>
+</div>
+</div>
+<div id ="branchList" class=details-div>
+</div>
+</br>
+<marquee direction="left" style="margin-top:60px;">Application will currently work only for "HDFC bank" (All regions) due to DB limit by Host on current plan.</marquee>
+</body>
+</html>
